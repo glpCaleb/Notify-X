@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Notify-X</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOGIN -->
+    <div class="container" id="loginBox">
+        <h2>🔐 Login</h2>
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="senha" placeholder="Senha">
+        <button onclick="login()">Entrar</button>
+    </div>
+
+    <!-- BLOCO DE NOTAS -->
+    <div class="container hidden" id="notesBox">
+        <h2>📝 Notify-X</h2>
+        <textarea id="nota" placeholder="Escreva suas anotações..."></textarea>
+        <button onclick="salvarNota()">Salvar</button>
+        <button onclick="logout()">Sair</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
